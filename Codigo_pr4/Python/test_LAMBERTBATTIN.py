@@ -2,7 +2,6 @@ import numpy as np
 from poliastro.bodies import Earth
 from poliastro.twobody import Orbit
 from poliastro.maneuver import Maneuver
-from poliastro.plotting import plot
 
 # Define the initial and final positions
 r1 = np.array([20.0e6, 20.0e6, 0])  # [m]
